@@ -1,0 +1,23 @@
+{
+  "name": "student-affairs",
+  "version": "1.0.0",
+  "description": "the greatest site in the universe",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bvillatoro9/student-affairs.git"
+  },
+  "author": "anonymous_savage",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bvillatoro9/student-affairs/issues"
+  },
+  "homepage": "https://github.com/bvillatoro9/student-affairs#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "normalize.css": "^4.2.0"
+  }
+}

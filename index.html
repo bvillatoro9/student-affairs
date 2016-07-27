@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <title>Student Affairs:Home</title>
   <link rel="stylesheet" href="css/node_modules/normalize.css/normalize.css">
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -19,9 +20,53 @@
       </ul>
     </header>
     <div class="main-content">
-      <h1>Student Affairs:Home</h1>
+      <h1>Student Affairs</h1>
+      <a class="btn btn-default btn-xs" href="faq.html">Ask a Question</a>
+      <table class="table table-striped table-hover">
+        <tr>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Favorite Sport</th>
+        </tr>
+        <tr>
+          <td>one</td>
+          <td>two</td>
+          <td>three</td>
+        </tr>
+        <tr>
+          <td>one</td>
+          <td>two</td>
+          <td>three</td>
+        </tr>
+        <tr>
+          <td>one</td>
+          <td>two</td>
+          <td>three</td>
+        </tr>
+      </table>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi earum necessitatibus maxime quis deserunt possimus, dolor placeat soluta incidunt. Provident explicabo ex reprehenderit laudantium cupiditate, aspernatur sit quidem quasi ipsam!</p>
     </div>
+    <form>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputFile">File input</label>
+        <input type="file" id="exampleInputFile">
+        <p class="help-block">No pdf files please.</p>
+      </div>
+      <div class="checkbox">
+        <label>
+          <input type="checkbox"> Check me out
+        </label>
+      </div>
+      <button type="submit" class="btn btn-default">Submit</button>
+    </form>
     <footer>
       <p>&copy; 2016</p>
     </footer>
